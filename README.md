@@ -1,13 +1,15 @@
-### [dapp-console](https://github.com/warren-bank/dapp-console)
+## Description
+
+***Everything contained in this repository is in draft form and subject to change at any time and provided for information purposes only.  LaunchPAD does not guarantee the accuracy of the information contained in this repository and the information is provided “as is” with no representations or warranties, express or implied. This code is owned and copyrighted by LaunchPAD and cannot be used by anyone for any purpose.***
 
 #### Description:
 
-Command-line REPL javascript console. [`web3.js`](https://github.com/ethereum/web3.js/) provides access to an Ethereum blockchain. Compiled contracts are represented as objects. Each deployed contract (with available [`dapp-deploy`](https://github.com/warren-bank/dapp-deploy) metadata) is associated with its on-chain address.
+Command-line REPL javascript console. [`web3.js`](https://github.com/ethereum/web3.js/) provides access to an Ethereum blockchain. Compiled contracts are represented as objects. Each deployed contract (with available [`dapp-deploy`](https://github.com/launchpadinc/dapp-deploy) metadata) is associated with its on-chain address.
 
 #### Installation:
 
 ```bash
-npm install -g @warren-bank/dapp-console
+npm install -g @launchpadinc/dapp-console
 ```
 
 *aside:*
@@ -95,8 +97,8 @@ license: GPLv2
 #### Notes:
 
 * This tool is standalone
-* It is intended to be used in combination with [`dapp-deploy`](https://github.com/warren-bank/dapp-deploy)
-* It is intended to complement the [`dapphub/dapp`](https://github.com/dapphub/dapp) toolchain
+* It is intended to be used in combination with [`dapp-deploy`](https://github.com/launchpadinc/dapp-deploy)
+* It is intended to complement the [`dapphub/dapp`](https://github.com/launchpadinc/dapp) toolchain
 * When `dapp` is installed, this tool can be invoked by the command: `dapp console [options]`
 * When used standalone, it can be invoked by the command: `dapp-console [options]`
 
@@ -151,8 +153,3 @@ license: GPLv2
 #### REPL Commands:
 
 * For info about advanced usage of REPLs in Node.js, please refer to: ["Commands and Special Keys"](https://nodejs.org/api/repl.html#repl_commands_and_special_keys)
-
-#### Legal:
-
-* copyright: [Warren Bank](https://github.com/warren-bank)
-* license: [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
