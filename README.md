@@ -90,7 +90,7 @@ Examples:
  dapp-console -i "/path/to/script.js"                                          execute a script file
  dapp-console -e 'console.log("unlocked accounts:", "\n", web3.eth.accounts)'  execute an inline script
 
-copyright: Warren Bank <github.com/launchpadinc>
+copyright: LaunchPAD Inc. <github.com/launchpadinc>
 license: 
 ```
 
